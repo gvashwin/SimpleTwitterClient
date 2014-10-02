@@ -1,4 +1,4 @@
-#Simple Twitter Clietn
+#Simple Twitter Client
 
 This is a simple twitter client android app
 
