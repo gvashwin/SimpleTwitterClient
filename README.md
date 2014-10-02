@@ -22,4 +22,4 @@ This is a simple twitter client android app
 
 ##App Demo
 ### App Walkthrough Demo
-![Video Walkthrough - App Demo Viemo Link](https://vimeo.com/107783123)
+[Video Walkthrough - App Demo](https://vimeo.com/107783123)
