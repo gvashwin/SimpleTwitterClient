@@ -113,7 +113,7 @@ public class ComposeTweetDialogFragment extends DialogFragment {
 				} else if (charsLeft > 10 && charsLeft <= 40) {
 					tvCharsRemaining.setTextColor(Color.parseColor("#FA9C05"));
 				} else {
-					
+					tvCharsRemaining.setTextColor(Color.parseColor("#000000"));
 				}
 				tvCharsRemaining.setText(""+charsLeft);
 			}

@@ -40,14 +40,14 @@
     	android:textSize="16dp" />
 
     <EditText
-    	android:id="@+id/etComposeTweet"
-    	android:layout_width="wrap_content"
-    	android:layout_height="120dp"
-    	android:maxLength="140"
-    	android:layout_alignParentLeft="true"
-    	android:layout_alignParentRight="true"
-    	android:layout_below="@+id/btnSendTweet"
-    	android:ems="10" >
+        android:id="@+id/etComposeTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnSendTweet"
+        android:ems="10"
+        android:maxLength="140" >
 
     	<requestFocus />
     </EditText>
