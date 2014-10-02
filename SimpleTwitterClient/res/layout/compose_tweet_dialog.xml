@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+    <ImageView
+    	android:id="@+id/ivProfileImg"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:src="@drawable/ic_launcher" />
+
+    <TextView
+    	android:id="@+id/tvProfileName"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_toRightOf="@+id/ivProfileImg"
+    	android:text="TextView" />
+
+    <TextView
+    	android:id="@+id/tvProfileTwitterHandle"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/tvProfileName"
+    	android:layout_toRightOf="@+id/ivProfileImg"
+    	android:text="TextView" />
+
+    <Button
+    	android:id="@+id/btnSendTweet"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignBottom="@+id/ivProfileImg"
+    	android:layout_alignParentRight="true"
+    	android:layout_alignParentTop="true"
+    	android:background="#55ACEE"
+    	android:enabled="true"
+    	android:text="Tweet"
+    	android:textSize="16dp" />
+
+    <EditText
+    	android:id="@+id/etComposeTweet"
+    	android:layout_width="wrap_content"
+    	android:layout_height="120dp"
+    	android:maxLength="140"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_below="@+id/btnSendTweet"
+    	android:ems="10" >
+
+    	<requestFocus />
+    </EditText>
+
+    <TextView
+    	android:id="@+id/tvCharsLeft"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/tvProfileName"
+    	android:layout_marginRight="20dp"
+    	android:layout_toLeftOf="@+id/btnSendTweet"
+    	android:text="140" />
+
+</RelativeLayout>

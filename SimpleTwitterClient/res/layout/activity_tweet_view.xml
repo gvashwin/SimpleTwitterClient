@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+    	android:id="@+id/ivAuthorImg"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:src="@drawable/ic_launcher" />
+
+    <TextView
+    	android:id="@+id/tvAuthorName"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_toRightOf="@+id/ivAuthorImg"
+    	android:text="TextView" />
+
+    <TextView
+    	android:id="@+id/tvAuthorTwitterHandle"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/tvAuthorName"
+    	android:layout_toRightOf="@+id/ivAuthorImg"
+    	android:text="TextView" />
+
+    <TextView
+    	android:id="@+id/tvDetailedTweet"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_below="@+id/ivAuthorImg"
+    	android:text="TextView" />
+
+</RelativeLayout>
