@@ -19,3 +19,7 @@ This is a simple twitter client android app
   * [x] User can refresh tweets timeline by pulling down to refresh 
   * [x] Improved the user interface and theme the app to feel "twitter branded"
   * [x] Compose activity is replaced with a modal overlay or Dialog Fragment
+
+##App Demo
+### App Walkthrough Demo
+![Video Walkthrough - App Demo](https://www.youtube.com/watch?v=cPpnG5HJzIQ)
